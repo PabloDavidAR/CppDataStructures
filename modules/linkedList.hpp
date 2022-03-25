@@ -15,7 +15,6 @@ namespace linkedList {
             void push(node<T> *);
 
             node<T> * pop();
-            T pop_val();
             node<T> * popByValue(T);
 
             int checkLength();
